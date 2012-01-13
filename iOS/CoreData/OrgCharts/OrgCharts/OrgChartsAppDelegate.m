@@ -18,8 +18,13 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [self createData];
     [self.window makeKeyAndVisible];
     return YES;
+}
+
+-(void) createData {
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="562" systemVersion="11B2118" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Organization">
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="leader" optional="YES" toMany="YES" minCount="1" deletionRule="Nullify" destinationEntity="Person"/>
+    </entity>
+    <entity name="Person">
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="employees" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Person"/>
+    </entity>
+    <elements>
+        <element name="Organization" positionX="160" positionY="192" width="128" height="90"/>
+        <element name="Person" positionX="-47" positionY="192" width="128" height="90"/>
+    </elements>
 </model>
