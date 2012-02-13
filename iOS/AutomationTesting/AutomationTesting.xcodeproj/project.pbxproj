@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4AB82B9F14D89391000ACC49 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB82B9E14D89391000ACC49 /* UIKit.framework */; };
+		4AB82BA114D89391000ACC49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB82BA014D89391000ACC49 /* Foundation.framework */; };
+		4AB82BA314D89391000ACC49 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB82BA214D89391000ACC49 /* CoreGraphics.framework */; };
+		4AB82BA914D89391000ACC49 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4AB82BA714D89391000ACC49 /* InfoPlist.strings */; };
+		4AB82BAB14D89391000ACC49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB82BAA14D89391000ACC49 /* main.m */; };
+		4AB82BAF14D89391000ACC49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB82BAE14D89391000ACC49 /* AppDelegate.m */; };
+		4AB82BB214D89391000ACC49 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB82BB114D89391000ACC49 /* ViewController.m */; };
+		4AB82BB514D89391000ACC49 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AB82BB314D89391000ACC49 /* ViewController.xib */; };
+		4AB82BBD14D8992A000ACC49 /* UIAutomationScript.js in Sources */ = {isa = PBXBuildFile; fileRef = 4AB82BBC14D8992A000ACC49 /* UIAutomationScript.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4AB82B9A14D89391000ACC49 /* AutomationTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutomationTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AB82B9E14D89391000ACC49 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4AB82BA014D89391000ACC49 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4AB82BA214D89391000ACC49 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4AB82BA614D89391000ACC49 /* AutomationTesting-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AutomationTesting-Info.plist"; sourceTree = "<group>"; };
+		4AB82BA814D89391000ACC49 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4AB82BAA14D89391000ACC49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4AB82BAC14D89391000ACC49 /* AutomationTesting-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AutomationTesting-Prefix.pch"; sourceTree = "<group>"; };
+		4AB82BAD14D89391000ACC49 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4AB82BAE14D89391000ACC49 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4AB82BB014D89391000ACC49 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4AB82BB114D89391000ACC49 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4AB82BB414D89391000ACC49 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		4AB82BBC14D8992A000ACC49 /* UIAutomationScript.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = UIAutomationScript.js; path = UITesting/UIAutomationScript.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AB82B9714D89391000ACC49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB82B9F14D89391000ACC49 /* UIKit.framework in Frameworks */,
+				4AB82BA114D89391000ACC49 /* Foundation.framework in Frameworks */,
+				4AB82BA314D89391000ACC49 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AB82B8F14D89391000ACC49 = {
+			isa = PBXGroup;
+			children = (
+				4AB82BA414D89391000ACC49 /* AutomationTesting */,
+				4AB82B9D14D89391000ACC49 /* Frameworks */,
+				4AB82B9B14D89391000ACC49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4AB82B9B14D89391000ACC49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AB82B9A14D89391000ACC49 /* AutomationTesting.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AB82B9D14D89391000ACC49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4AB82B9E14D89391000ACC49 /* UIKit.framework */,
+				4AB82BA014D89391000ACC49 /* Foundation.framework */,
+				4AB82BA214D89391000ACC49 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4AB82BA414D89391000ACC49 /* AutomationTesting */ = {
+			isa = PBXGroup;
+			children = (
+				4AB82BBB14D898D1000ACC49 /* UITesting */,
+				4AB82BAD14D89391000ACC49 /* AppDelegate.h */,
+				4AB82BAE14D89391000ACC49 /* AppDelegate.m */,
+				4AB82BB014D89391000ACC49 /* ViewController.h */,
+				4AB82BB114D89391000ACC49 /* ViewController.m */,
+				4AB82BB314D89391000ACC49 /* ViewController.xib */,
+				4AB82BA514D89391000ACC49 /* Supporting Files */,
+			);
+			path = AutomationTesting;
+			sourceTree = "<group>";
+		};
+		4AB82BA514D89391000ACC49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AB82BA614D89391000ACC49 /* AutomationTesting-Info.plist */,
+				4AB82BA714D89391000ACC49 /* InfoPlist.strings */,
+				4AB82BAA14D89391000ACC49 /* main.m */,
+				4AB82BAC14D89391000ACC49 /* AutomationTesting-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4AB82BBB14D898D1000ACC49 /* UITesting */ = {
+			isa = PBXGroup;
+			children = (
+				4AB82BBC14D8992A000ACC49 /* UIAutomationScript.js */,
+			);
+			name = UITesting;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AB82B9914D89391000ACC49 /* AutomationTesting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AB82BB814D89391000ACC49 /* Build configuration list for PBXNativeTarget "AutomationTesting" */;
+			buildPhases = (
+				4AB82B9614D89391000ACC49 /* Sources */,
+				4AB82B9714D89391000ACC49 /* Frameworks */,
+				4AB82B9814D89391000ACC49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutomationTesting;
+			productName = AutomationTesting;
+			productReference = 4AB82B9A14D89391000ACC49 /* AutomationTesting.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AB82B9114D89391000ACC49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 4AB82B9414D89391000ACC49 /* Build configuration list for PBXProject "AutomationTesting" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4AB82B8F14D89391000ACC49;
+			productRefGroup = 4AB82B9B14D89391000ACC49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AB82B9914D89391000ACC49 /* AutomationTesting */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AB82B9814D89391000ACC49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB82BA914D89391000ACC49 /* InfoPlist.strings in Resources */,
+				4AB82BB514D89391000ACC49 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AB82B9614D89391000ACC49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB82BAB14D89391000ACC49 /* main.m in Sources */,
+				4AB82BAF14D89391000ACC49 /* AppDelegate.m in Sources */,
+				4AB82BB214D89391000ACC49 /* ViewController.m in Sources */,
+				4AB82BBD14D8992A000ACC49 /* UIAutomationScript.js in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4AB82BA714D89391000ACC49 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AB82BA814D89391000ACC49 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4AB82BB314D89391000ACC49 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AB82BB414D89391000ACC49 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4AB82BB614D89391000ACC49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4AB82BB714D89391000ACC49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AB82BB914D89391000ACC49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutomationTesting/AutomationTesting-Prefix.pch";
+				INFOPLIST_FILE = "AutomationTesting/AutomationTesting-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4AB82BBA14D89391000ACC49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutomationTesting/AutomationTesting-Prefix.pch";
+				INFOPLIST_FILE = "AutomationTesting/AutomationTesting-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AB82B9414D89391000ACC49 /* Build configuration list for PBXProject "AutomationTesting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AB82BB614D89391000ACC49 /* Debug */,
+				4AB82BB714D89391000ACC49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AB82BB814D89391000ACC49 /* Build configuration list for PBXNativeTarget "AutomationTesting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AB82BB914D89391000ACC49 /* Debug */,
+				4AB82BBA14D89391000ACC49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AB82B9114D89391000ACC49 /* Project object */;
+}
