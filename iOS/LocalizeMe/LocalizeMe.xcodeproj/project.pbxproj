@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A7234EA14E5C569005CC136 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7234E914E5C569005CC136 /* UIKit.framework */; };
+		4A7234EC14E5C569005CC136 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7234EB14E5C569005CC136 /* Foundation.framework */; };
+		4A7234EE14E5C569005CC136 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7234ED14E5C569005CC136 /* CoreGraphics.framework */; };
+		4A7234F414E5C569005CC136 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A7234F214E5C569005CC136 /* InfoPlist.strings */; };
+		4A7234F614E5C569005CC136 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7234F514E5C569005CC136 /* main.m */; };
+		4A7234FA14E5C569005CC136 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7234F914E5C569005CC136 /* AppDelegate.m */; };
+		4A7234FD14E5C56A005CC136 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7234FC14E5C56A005CC136 /* ViewController.m */; };
+		4A72350014E5C56A005CC136 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A7234FE14E5C56A005CC136 /* ViewController.xib */; };
+		4A72350D14E5C9AD005CC136 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A72350C14E5C9AD005CC136 /* icon.png */; };
+		4A72350F14E5C9BA005CC136 /* flag.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A72350E14E5C9BA005CC136 /* flag.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A7234E514E5C569005CC136 /* LocalizeMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalizeMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A7234E914E5C569005CC136 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4A7234EB14E5C569005CC136 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4A7234ED14E5C569005CC136 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4A7234F114E5C569005CC136 /* LocalizeMe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LocalizeMe-Info.plist"; sourceTree = "<group>"; };
+		4A7234F314E5C569005CC136 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A7234F514E5C569005CC136 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A7234F714E5C569005CC136 /* LocalizeMe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LocalizeMe-Prefix.pch"; sourceTree = "<group>"; };
+		4A7234F814E5C569005CC136 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4A7234F914E5C569005CC136 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4A7234FB14E5C569005CC136 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4A7234FC14E5C56A005CC136 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4A7234FF14E5C56A005CC136 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		4A72350C14E5C9AD005CC136 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		4A72350E14E5C9BA005CC136 /* flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flag.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A7234E214E5C569005CC136 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A7234EA14E5C569005CC136 /* UIKit.framework in Frameworks */,
+				4A7234EC14E5C569005CC136 /* Foundation.framework in Frameworks */,
+				4A7234EE14E5C569005CC136 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A7234DA14E5C569005CC136 = {
+			isa = PBXGroup;
+			children = (
+				4A7234EF14E5C569005CC136 /* LocalizeMe */,
+				4A7234E814E5C569005CC136 /* Frameworks */,
+				4A7234E614E5C569005CC136 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A7234E614E5C569005CC136 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A7234E514E5C569005CC136 /* LocalizeMe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A7234E814E5C569005CC136 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A7234E914E5C569005CC136 /* UIKit.framework */,
+				4A7234EB14E5C569005CC136 /* Foundation.framework */,
+				4A7234ED14E5C569005CC136 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A7234EF14E5C569005CC136 /* LocalizeMe */ = {
+			isa = PBXGroup;
+			children = (
+				4A7234F814E5C569005CC136 /* AppDelegate.h */,
+				4A7234F914E5C569005CC136 /* AppDelegate.m */,
+				4A7234FB14E5C569005CC136 /* ViewController.h */,
+				4A7234FC14E5C56A005CC136 /* ViewController.m */,
+				4A7234FE14E5C56A005CC136 /* ViewController.xib */,
+				4A72350A14E5C8BC005CC136 /* Resources */,
+				4A7234F014E5C569005CC136 /* Supporting Files */,
+			);
+			path = LocalizeMe;
+			sourceTree = "<group>";
+		};
+		4A7234F014E5C569005CC136 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A7234F114E5C569005CC136 /* LocalizeMe-Info.plist */,
+				4A7234F214E5C569005CC136 /* InfoPlist.strings */,
+				4A7234F514E5C569005CC136 /* main.m */,
+				4A7234F714E5C569005CC136 /* LocalizeMe-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A72350A14E5C8BC005CC136 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4A72350C14E5C9AD005CC136 /* icon.png */,
+				4A72350E14E5C9BA005CC136 /* flag.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A7234E414E5C569005CC136 /* LocalizeMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A72350314E5C56A005CC136 /* Build configuration list for PBXNativeTarget "LocalizeMe" */;
+			buildPhases = (
+				4A7234E114E5C569005CC136 /* Sources */,
+				4A7234E214E5C569005CC136 /* Frameworks */,
+				4A7234E314E5C569005CC136 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocalizeMe;
+			productName = LocalizeMe;
+			productReference = 4A7234E514E5C569005CC136 /* LocalizeMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A7234DC14E5C569005CC136 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 4A7234DF14E5C569005CC136 /* Build configuration list for PBXProject "LocalizeMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4A7234DA14E5C569005CC136;
+			productRefGroup = 4A7234E614E5C569005CC136 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A7234E414E5C569005CC136 /* LocalizeMe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A7234E314E5C569005CC136 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A7234F414E5C569005CC136 /* InfoPlist.strings in Resources */,
+				4A72350014E5C56A005CC136 /* ViewController.xib in Resources */,
+				4A72350D14E5C9AD005CC136 /* icon.png in Resources */,
+				4A72350F14E5C9BA005CC136 /* flag.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A7234E114E5C569005CC136 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A7234F614E5C569005CC136 /* main.m in Sources */,
+				4A7234FA14E5C569005CC136 /* AppDelegate.m in Sources */,
+				4A7234FD14E5C56A005CC136 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4A7234F214E5C569005CC136 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A7234F314E5C569005CC136 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4A7234FE14E5C56A005CC136 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A7234FF14E5C56A005CC136 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A72350114E5C56A005CC136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4A72350214E5C56A005CC136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A72350414E5C56A005CC136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LocalizeMe/LocalizeMe-Prefix.pch";
+				INFOPLIST_FILE = "LocalizeMe/LocalizeMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4A72350514E5C56A005CC136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LocalizeMe/LocalizeMe-Prefix.pch";
+				INFOPLIST_FILE = "LocalizeMe/LocalizeMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A7234DF14E5C569005CC136 /* Build configuration list for PBXProject "LocalizeMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A72350114E5C56A005CC136 /* Debug */,
+				4A72350214E5C56A005CC136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A72350314E5C56A005CC136 /* Build configuration list for PBXNativeTarget "LocalizeMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A72350414E5C56A005CC136 /* Debug */,
+				4A72350514E5C56A005CC136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A7234DC14E5C569005CC136 /* Project object */;
+}
