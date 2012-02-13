@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A0E00DF14E9A77100A6DFEE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A72351E14E98925005CC136 /* Localizable.strings */; };
+		4A0E00E114E9A93800A6DFEE /* LocalizeMe-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4A0E00E014E9A93800A6DFEE /* LocalizeMe-Info.plist */; };
+		4A0E00E414E9A9C800A6DFEE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A0E00E614E9A9C800A6DFEE /* InfoPlist.strings */; };
 		4A7234EA14E5C569005CC136 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7234E914E5C569005CC136 /* UIKit.framework */; };
 		4A7234EC14E5C569005CC136 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7234EB14E5C569005CC136 /* Foundation.framework */; };
 		4A7234EE14E5C569005CC136 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7234ED14E5C569005CC136 /* CoreGraphics.framework */; };
@@ -16,15 +19,18 @@
 		4A7234FD14E5C56A005CC136 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7234FC14E5C56A005CC136 /* ViewController.m */; };
 		4A72350014E5C56A005CC136 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A7234FE14E5C56A005CC136 /* ViewController.xib */; };
 		4A72350D14E5C9AD005CC136 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A72350C14E5C9AD005CC136 /* icon.png */; };
-		4A72350F14E5C9BA005CC136 /* flag.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A72350E14E5C9BA005CC136 /* flag.png */; };
+		4A72351514E978E8005CC136 /* flag.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A72351314E978E8005CC136 /* flag.png */; };
+		4A72351C14E98925005CC136 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A72351E14E98925005CC136 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A0E00E014E9A93800A6DFEE /* LocalizeMe-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LocalizeMe-Info.plist"; sourceTree = "<group>"; };
+		4A0E00E514E9A9C800A6DFEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A0E00E714E9A9CC00A6DFEE /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4A7234E514E5C569005CC136 /* LocalizeMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalizeMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A7234E914E5C569005CC136 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4A7234EB14E5C569005CC136 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4A7234ED14E5C569005CC136 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		4A7234F114E5C569005CC136 /* LocalizeMe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LocalizeMe-Info.plist"; sourceTree = "<group>"; };
 		4A7234F314E5C569005CC136 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4A7234F514E5C569005CC136 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4A7234F714E5C569005CC136 /* LocalizeMe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LocalizeMe-Prefix.pch"; sourceTree = "<group>"; };
@@ -34,7 +40,11 @@
 		4A7234FC14E5C56A005CC136 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4A7234FF14E5C56A005CC136 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		4A72350C14E5C9AD005CC136 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		4A72350E14E5C9BA005CC136 /* flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flag.png; sourceTree = "<group>"; };
+		4A72351014E974E1005CC136 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/ViewController.xib; sourceTree = "<group>"; };
+		4A72351414E978E8005CC136 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/flag.png; sourceTree = "<group>"; };
+		4A72351914E986E5005CC136 /* fr */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fr; path = fr.lproj/flag.png; sourceTree = "<group>"; };
+		4A72351D14E98925005CC136 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4A72351F14E9892F005CC136 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,10 +105,12 @@
 		4A7234F014E5C569005CC136 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4A7234F114E5C569005CC136 /* LocalizeMe-Info.plist */,
+				4A0E00E014E9A93800A6DFEE /* LocalizeMe-Info.plist */,
+				4A72351E14E98925005CC136 /* Localizable.strings */,
 				4A7234F214E5C569005CC136 /* InfoPlist.strings */,
 				4A7234F514E5C569005CC136 /* main.m */,
 				4A7234F714E5C569005CC136 /* LocalizeMe-Prefix.pch */,
+				4A0E00E614E9A9C800A6DFEE /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -106,8 +118,8 @@
 		4A72350A14E5C8BC005CC136 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4A72351314E978E8005CC136 /* flag.png */,
 				4A72350C14E5C9AD005CC136 /* icon.png */,
-				4A72350E14E5C9BA005CC136 /* flag.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -146,6 +158,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				fr,
 			);
 			mainGroup = 4A7234DA14E5C569005CC136;
 			productRefGroup = 4A7234E614E5C569005CC136 /* Products */;
@@ -165,7 +178,11 @@
 				4A7234F414E5C569005CC136 /* InfoPlist.strings in Resources */,
 				4A72350014E5C56A005CC136 /* ViewController.xib in Resources */,
 				4A72350D14E5C9AD005CC136 /* icon.png in Resources */,
-				4A72350F14E5C9BA005CC136 /* flag.png in Resources */,
+				4A72351514E978E8005CC136 /* flag.png in Resources */,
+				4A72351C14E98925005CC136 /* Localizable.strings in Resources */,
+				4A0E00DF14E9A77100A6DFEE /* Localizable.strings in Resources */,
+				4A0E00E114E9A93800A6DFEE /* LocalizeMe-Info.plist in Resources */,
+				4A0E00E414E9A9C800A6DFEE /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,6 +202,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		4A0E00E614E9A9C800A6DFEE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A0E00E514E9A9C800A6DFEE /* en */,
+				4A0E00E714E9A9CC00A6DFEE /* fr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		4A7234F214E5C569005CC136 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -197,8 +223,27 @@
 			isa = PBXVariantGroup;
 			children = (
 				4A7234FF14E5C56A005CC136 /* en */,
+				4A72351014E974E1005CC136 /* fr */,
 			);
 			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		4A72351314E978E8005CC136 /* flag.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A72351414E978E8005CC136 /* en */,
+				4A72351914E986E5005CC136 /* fr */,
+			);
+			name = flag.png;
+			sourceTree = "<group>";
+		};
+		4A72351E14E98925005CC136 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A72351D14E98925005CC136 /* en */,
+				4A72351F14E9892F005CC136 /* fr */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
